@@ -33,8 +33,7 @@
 #include <inttypes.h>
 
 typedef enum {
-    //eSHT2xAddress = 0x40,
-    eSHT2xAddress = 0x80,
+    eSHT2xAddress = 0x40,
 } HUM_SENSOR_T;
 
 typedef enum {
@@ -187,8 +186,7 @@ SHT2xClass SHT2x;
 //#include "WProgram.h"
 #endif
 
-//#define BMP085_ADDR                 0x77     //0x77 default I2C address
-#define BMP085_ADDR                 0xEE     //0x77 default I2C address
+#define BMP085_ADDR                 0x77     //0x77 default I2C address
 #define BUFFER_SIZE                 3
 
 #define AUTO_UPDATE_TEMPERATURE     true    //default is true
